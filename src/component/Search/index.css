@@ -1,0 +1,61 @@
+.SearchPage-container{
+    padding: 15%;
+    width: 100%;
+    height: 100%;
+}
+
+.SearchPage-form{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    margin: auto;
+}
+
+.SearchPage-ticket-header{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.SearchPage-tkt-prc-value{
+    color: lightgreen;
+    font-size: 24px;
+}
+
+.SearchPage-form > input{
+    border-right: none;
+    border-top-right-radius: 0em;
+    border-bottom-right-radius: 0em;
+}
+
+.SearchPage-dropdown > button{
+    border-radius: 0rem;
+}
+
+.SearchPage-search-btn{
+    border-radius: 0rem 0.25rem 0.25rem 0rem;
+    border-left: none;
+}
+
+.SearchPage-ticket{
+    cursor: pointer;
+    margin-top: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.SearchPage-ticket-topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.SearchPage-tkt-name{
+    color: White;
+    font-size: 24px;
+}
+
+.SearchPage-tkt-info{
+    padding: 1em;
+}
